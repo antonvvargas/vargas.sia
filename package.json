@@ -1,0 +1,28 @@
+{
+  "name": "vargas.sia",
+  "version": "1.0.0",
+  "description": "classroom activities",
+  "keywords": [
+    "sia",
+    "activities",
+    "sy25-26"
+  ],
+  "homepage": "https://github.com/antonvvargas/vargas.sia#readme",
+  "bugs": {
+    "url": "https://github.com/antonvvargas/vargas.sia/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonvvargas/vargas.sia.git"
+  },
+  "license": "ISC",
+  "author": "Vargas,Anton Jhon Rhoan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
