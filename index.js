@@ -1,10 +1,10 @@
-const express = require('express');
-const app = express();
+// Package Imports
+const app = require('express')
 
-app.get('/', (req, res) => {
-    res.send('Hiiiiii sir');
-});
-
-app.listen(1234, () => {
-    console.log('Server is running on http://localhost:1234');
-});
+// Server Setup
+const server = app()
+const PORT = 2000
+const HOSTNAME ='0.0.0.0'
+server.listen(2000,'0.0.0.0', () => {
+  console.log (`Server is running in ${HOSTNAME}:${PORT}`)
+})
